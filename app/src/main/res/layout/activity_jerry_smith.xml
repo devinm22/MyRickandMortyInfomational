@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#64b6d1"
+    tools:context=".JerrySmithActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="8dp"
+        android:text="Jerry Smith"
+        android:textColor="#59ff3f"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Age:35 "
+        android:textSize="25dp"
+        android:textColor="#59ff3f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Occupation:Advertising Agent"
+        android:textSize="25dp"
+        android:textColor="#59ff3f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Children:Summer Smith (Daughter), Morty Smith (Son)"
+        android:textColor="#59ff3f"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Relationship: Married to Beth Smith (Mother of Children)"
+        android:textColor="#59ff3f"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Finish"
+        android:textColor="#59ff3f"
+        android:onClick="openMainActivity"/>
+
+</LinearLayout>

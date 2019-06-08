@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BethSmithActivity"
+    android:background="#64b6d1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="8dp"
+        android:text="Beth Smith"
+        android:textColor="#59ff3f"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Age:35 "
+        android:textSize="25dp"
+        android:textColor="#59ff3f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Occupation:Horse Surgeon at St.Equis Hospital"
+        android:textSize="25dp"
+        android:textColor="#59ff3f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Children:Summer Smith (Daughter), Morty Smith (Son)"
+        android:textColor="#59ff3f"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Relationship: Married to: Jerry Smith, Mother of: Summer and Morty Smith"
+        android:textColor="#59ff3f"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Next"
+        android:textColor="#59ff3f"
+        android:onClick="openJerrySmith"/>
+
+
+</LinearLayout>
